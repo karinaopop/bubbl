@@ -1,0 +1,130 @@
+
+*{
+  color: #6E6E6E;
+
+}
+
+main{
+  padding-left:11px;
+}
+
+nav {
+  background-color: #DEDEDE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6E6E6E;
+  font-weight: bold;
+  font-size: 2em;
+}
+.profile-icon{
+  margin-right: 30px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+.learn{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+}
+.social-links{
+  display:flex;
+  gap:20px;
+  align-items:center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.prices {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.prices h2 u {
+  text-decoration-color: #ff9db2;
+  font-size: 32px;
+}
+
+
+.prices form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.prices input[type="text"],
+.prices input[type="email"] {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 32px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+.prices button {
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff9db2;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.prices button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 157, 178, 0.4);
+}
+
+.prices button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(255, 157, 178, 0.3);
+}
+
